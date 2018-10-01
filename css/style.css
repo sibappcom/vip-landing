@@ -145,16 +145,15 @@ header ul li div{
 
 @keyframes move {
   0% {
-    margin-right: -50px;
+    left: -220px;
   }
   100% {
-    margin-right: -240px;
+    left: -40px;
   }
 }
 
 
 .app-box {
-
   background: #fff;
   width: 90%;
   margin: auto;
@@ -164,6 +163,7 @@ header ul li div{
   overflow: hidden;
   margin-bottom: 20px;
   position: relative;
+  height: 420px;
 }
 
 .app-box h4 {
@@ -189,9 +189,10 @@ header ul li div{
 
 .app-box img {
   margin-bottom: 20px;
-  animation: move 5s infinite;
-  animation-timing-function: ease-in;
+  animation: move 10s infinite;
+  animation-timing-function: cubic-bezier(0.35, 0.35, 1, 1);
   margin-top: 100px;
+  position: absolute;
 }
 
 
