@@ -163,6 +163,7 @@ header ul li div{
   border-radius: 17px;
   overflow: hidden;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .app-box h4 {
@@ -170,6 +171,8 @@ header ul li div{
   font-weight: 100;
   font-size: 13px;
   padding: 20px 15px 10px;
+  position: absolute;
+  top: 0px;
 }
 
 
@@ -179,6 +182,8 @@ header ul li div{
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: 900;
+  position: absolute;
+  top: 50px;
 }
 
 
@@ -186,6 +191,7 @@ header ul li div{
   margin-bottom: 20px;
   animation: move 5s infinite;
   animation-timing-function: ease-in;
+  margin-top: 100px;
 }
 
 
