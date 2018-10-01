@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+
+body {
+  background: #F7F7F8;
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+
+}
+
+
+header {
+
+  background: rgba(48,143,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(48,143,255,1)), color-stop(100%, rgba(104,7,249,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
+  background: linear-gradient(135deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#308fff', endColorstr='#6807f9', GradientType=1 );
+
+  padding-bottom: 150px;
+}
+
+header img {
+  width: 100%;
+}
+header h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-top: -30px;
+  padding: 0 20px;
+  font-weight: 900;
+}
+
+
+header p {
+
+  font-size: 14px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.9;
+}
+
+header b {
+  color: #F8E71C;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+header p.light {
+  font-weight: 100;
+}
+
+
+header h2 {
+
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 0 20px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+header ul {
+  padding: 0 20px;
+}
+header ul li {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+header ul li img {
+  margin-left: 10px;
+  width: 45px;
+}
+header ul li div{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 100;
+}
+
+
+
+
+
+
+@keyframes move {
+  0% {
+    margin-right: -50px;
+  }
+  100% {
+    margin-right: -240px;
+  }
+}
+
+
+.app-box {
+
+  background: #fff;
+  width: 90%;
+  margin: auto;
+  margin-top: -110px;
+  box-sizing: border-box;
+  border-radius: 17px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.app-box h4 {
+  color: #8F8E94;
+  font-weight: 100;
+  font-size: 13px;
+  padding: 20px 15px 10px;
+}
+
+
+.app-box h3 {
+
+  padding: 0 15px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+
+.app-box img {
+  margin-bottom: 20px;
+  animation: move 10s infinite;
+  animation-timing-function: cubic-bezier(0.24, 0.24, 0.89, 0.9);
+}
+
+
+
+
+
+
+
+
+.plans {
+
+  padding-bottom: 40px;
+}
+
+
+.plans a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.plans a img {
+
+  width: 90%;
+  margin: auto;
+  display: inline-block;
+}
+
+
+.contact {
+
+}
