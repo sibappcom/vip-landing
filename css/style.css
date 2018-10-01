@@ -184,8 +184,8 @@ header ul li div{
 
 .app-box img {
   margin-bottom: 20px;
-  animation: move 10s infinite;
-  animation-timing-function: cubic-bezier(0.24, 0.24, 0.89, 0.9);
+  animation: move 5s infinite;
+  animation-timing-function: ease-in;
 }
 
 
