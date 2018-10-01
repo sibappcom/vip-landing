@@ -145,10 +145,18 @@ header ul li div{
 
 @keyframes move {
   0% {
-    transform: translateX(-35%);
+    -webkit-transform: translateX(-35%);
+    -moz-transform:    translateX(-35%);
+    -ms-transform:     translateX(-35%);
+    -o-transform:      translateX(-35%);
+    transform:         translateX(-35%);
   }
   100% {
-    transform: translateX(-5%);
+    -webkit-transform: translateX(-5%);
+    -moz-transform:    translateX(-5%);
+    -ms-transform:     translateX(-5%);
+    -o-transform:      translateX(-5%);
+    transform:         translateX(-5%);
   }
 }
 
