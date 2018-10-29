@@ -72,7 +72,7 @@ header {
   background: linear-gradient(135deg, rgba(48,143,255,1) 0%, rgba(104,7,249,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#308fff', endColorstr='#6807f9', GradientType=1 );
 
-  padding-bottom: 150px;
+  margin-bottom: 10px;
 }
 
 header img {
@@ -165,13 +165,15 @@ header ul li div{
   background: #fff;
   width: 90%;
   margin: auto;
-  margin-top: -110px;
   box-sizing: border-box;
   border-radius: 17px;
   overflow: hidden;
   margin-bottom: 20px;
   position: relative;
   height: 420px;
+  margin-bottom: 70px;
+  box-shadow: 0 1px 60px rgba(0, 0, 0, 0.12941176);
+
 }
 
 .app-box h4 {
@@ -214,7 +216,7 @@ header ul li div{
 
 .plans {
 
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -235,4 +237,18 @@ header ul li div{
 
 .contact {
 
+}
+
+.vip-title {
+  width: 90%;
+  background: #F7F7F8;
+  margin: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  line-height: 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
 }
